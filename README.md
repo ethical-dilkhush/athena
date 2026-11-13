@@ -90,11 +90,10 @@ When `--pick 3` is used in JSON mode, the result is a JSON array of objects.
 ## Project Structure
 
 ```
-athena/
-├── athena.py         # CLI entrypoint and oracle dataset
-├── pyproject.toml    # Package metadata, entrypoint, tool config
-├── README.md         # This file
-└── .gitignore        # Python build artifacts and common noise
+.gitignore
+README.md
+athena.py
+pyproject.toml
 ```
 
 - `athena.py` — flat single-module implementation: oracle data, formatting, argparse CLI
